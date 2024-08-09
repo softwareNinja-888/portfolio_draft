@@ -1,0 +1,32 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    box-shadow: 0.3em 0.3em 1em gray;
+
+    max-width: 300px;
+    max-height: 400px;
+}
+
+.workImg {
+    max-width: 100%;
+    min-height: 180px;
+    height: auto;
+
+}
+.name {
+    padding: 5px;
+    justify-content: space-between;
+}
+.description{
+    padding: 10px;
+
+}
+.projectLinks{
+    display: flex;
+    gap: 15px;
+}
+
+i {
+    font-size: 20px;
+}
