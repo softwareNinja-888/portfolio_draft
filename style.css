@@ -30,3 +30,15 @@
 i {
     font-size: 20px;
 }
+
+/* DISPLAY WORK CONTAINER */
+
+.con {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    column-gap: 0px;
+}
+.heading{
+    grid-column: 1/4;
+}
