@@ -39,8 +39,10 @@
 }
 .name {
     padding: 5px;
-    gap: 80px;
-    /* justify-content: space-between; */
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 280px;
 }
 .description{
     padding: 10px;
